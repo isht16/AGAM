@@ -1,2 +1,1 @@
-# AGAM
-🗑️ A utility to remove garbage apps from Android.
+# Android Garbage Applications Manager (AGAM)
