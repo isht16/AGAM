@@ -1,28 +1,54 @@
-function Remove-Bloat {
+#
+# Application Management Instructions (AMI)
+#
+# <INSTRUCTION> <VALUE> <PARAMETER> <PARAMETER> <PARAMETER>...
+#
+# COM <VALUE>.
+#
+# SEC <VALUE>.
+#
+# ADD <VALUE>.
+# REM <VALUE>.
+#
+# ENA <VALUE> <KEEP CACHE DATA>.
+# DIS <VALUE> <KEEP CACHE DATA>.
+#
 
-    param (
+param (
 
-        [string] $Path
-    )
+    [string] $filePath
+)
 
-    $elements = @(Get-Content $path)
+$fileContent = Get-Content -Path $filePath -Raw
 
-    for (
+foreach ($line in $fileContent -Split "`n") {
 
-        $i = 1;
-        $i -le $($elements.Count);
-        $i++
-    ) {
+    $prompt = $line -Split ";"
 
-        $prompt = "pm uninstall --user 0 $($elements[$i - 1])"
+    switch ($prompt[0]) {
 
-        Write-Progress -Activity 'Running ADB scripts' -Status "Step $($i) of $($elements.Count)" -CurrentOperation $prompt
+        "SEC" {
 
-        .\adb.exe shell $prompt
+            Write-Output "--- $($prompt[1]) ---"
+        }
+
+        "ENA" {
+
+        }
+
+        "DIS" {
+
+        }
+
+        "ADD" {
+
+        }
+
+        "REM" {
+
+            Write-Output "pm uninstall --user 0 $($prompt[1])"
+
+            # .\adb.exe shell "pm uninstall --user 0 $($prompt[1])"
+        }
     }
 }
-
-Remove-Bloat '.\Essential'
-
-# https://www.reddit.com/r/Realme/comments/13i56um/comment/kj0dmr7/?translated=1&pretranslation_language=es-es
-Remove-Bloat '.\Realme\RMX3710'
