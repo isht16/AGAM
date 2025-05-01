@@ -1,5 +1,6 @@
 ﻿REM;com.android.bips
 REM;com.android.bluetoothmidiservice
+REM;com.android.chrome
 REM;com.android.bookmarkprovider
 REM;com.android.dreams.basic
 REM;com.android.egg
@@ -17,6 +18,7 @@ REM;com.android.wallpaper.livepicker
 SEC;Google LLC
 ;
 REM;com.google.ambient.streaming
+REM;com.google.android.keep
 REM;com.google.android.adservices.api
 REM;com.google.android.apps.googleassistant
 REM;com.google.android.apps.healthdata
