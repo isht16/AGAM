@@ -1,3 +1,4 @@
+﻿VERSION;2;
 UNINSTALL;;com.coloros.activation
 UNINSTALL;;com.coloros.childrenspace
 UNINSTALL;;com.coloros.compass2
@@ -18,8 +19,8 @@ UNINSTALL;;com.coloros.video
 UNINSTALL;;com.coloros.weather.service
 UNINSTALL;;com.coloros.weather2
 UNINSTALL;;com.debug.loggerui
-UNINSTALL;;com.payjoy.access
-UNINSTALL;;com.wapi.wapicertmanager
+UNINSTALL;;com.fintech.life
+UNINSTALL;;com.glance.internet
 UNINSTALL;;com.heytap.accessory
 UNINSTALL;;com.heytap.browser
 UNINSTALL;;com.heytap.market
@@ -27,8 +28,8 @@ UNINSTALL;;com.heytap.mcs
 UNINSTALL;;com.heytap.music
 UNINSTALL;;com.heytap.pictorial
 UNINSTALL;;com.heytap.usercenter
-UNINSTALL;;com.fintech.life
-UNINSTALL;;com.glance.internet
+UNINSTALL;;com.payjoy.access
+UNINSTALL;;com.wapi.wapicertmanager
 DEVELOPER;OnePlus Ltd.;
 UNINSTALL;;com.oplus.account
 UNINSTALL;;com.oplus.aiunit
