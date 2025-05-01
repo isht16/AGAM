@@ -16,10 +16,14 @@ https://developer.android.com/tools/releases/platform-tools
 
 I have created a small format to have a basis for reusing code in other terminals.
 
+### `VERSION <NUMBER>`
+
 ### `COMMENT <TEXT>`
 
 ### `DEVELOPER <TEXT>`
 
-### `DISABLE <NAME> <PACKAGE>`
+### `KEEP <BOOLEAN>`
 
-### `UNINSTALL <NAME> <PACKAGE>`
+### `DISABLE <NAME> <PACKAGE> <DEPENDENCE> <DEPENDENCE> <DEPENDENCE> …`
+
+### `UNINSTALL <NAME> <PACKAGE> <DEPENDENCE> <DEPENDENCE> <DEPENDENCE> …`

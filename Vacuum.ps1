@@ -20,14 +20,14 @@ foreach ($line in $fileContent -Split "`n") {
 
             Write-Output $prompt[1]
 
-            .\adb.exe shell "pm disable --user 0 $($prompt[2])"
+            adb.exe shell "pm disable --user 0 $($prompt[2])"
         }
 
         "UNINSTALL" {
 
             Write-Output $prompt[1]
 
-            .\adb.exe shell "pm uninstall --user 0 $($prompt[2])"
+            adb.exe shell "pm uninstall --user 0 $($prompt[2])"
         }
     }
 }
