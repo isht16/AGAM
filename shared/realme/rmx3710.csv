@@ -1,4 +1,4 @@
-﻿REM;com.coloros.activation
+REM;com.coloros.activation
 REM;com.coloros.childrenspace
 REM;com.coloros.compass2
 REM;com.coloros.filemanager
@@ -17,13 +17,9 @@ REM;com.coloros.soundrecorder
 REM;com.coloros.video
 REM;com.coloros.weather.service
 REM;com.coloros.weather2
-;
 REM;com.debug.loggerui
-;
 REM;com.payjoy.access
-;
 REM;com.wapi.wapicertmanager
-;
 REM;com.heytap.accessory
 REM;com.heytap.browser
 REM;com.heytap.market
@@ -31,13 +27,9 @@ REM;com.heytap.mcs
 REM;com.heytap.music
 REM;com.heytap.pictorial
 REM;com.heytap.usercenter
-;
 REM;com.fintech.life
-;
 REM;com.glance.internet
-;
 SEC;OnePlus Ltd.
-;
 REM;com.oplus.account
 REM;com.oplus.aiunit
 REM;com.oplus.aod
@@ -77,24 +69,15 @@ REM;com.oplus.synergy
 REM;com.oplus.themestore
 REM;com.oplus.viewtalk
 REM;com.oplus.wifibackuprestore
-;
 REM;com.ses.entitlement.o2
-;
 SEC;Oppo
-;
 REM;com.oppo.quicksearchbox
-;
 SEC;Realme
-;
 REM;com.realme.movieshot
 REM;com.realme.wellbeing
-;
 SEC;Realtek
-;
 REM;com.Btek.engineermode
 REM;com.Btek.omacp
 REM;com.Btek.voicecommand
-;
 SEC;Tencent Inc.
-;
 REM;com.tencent.soter.soterserver

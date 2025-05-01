@@ -1,4 +1,4 @@
-﻿REM;com.android.bips
+REM;com.android.bips
 REM;com.android.bluetoothmidiservice
 REM;com.android.chrome
 REM;com.android.bookmarkprovider
@@ -14,9 +14,7 @@ REM;com.android.storagemanager
 REM;com.android.systemui.plugin.globalactions.wallet
 REM;com.android.traceur
 REM;com.android.wallpaper.livepicker
-;
 SEC;Google LLC
-;
 REM;com.google.ambient.streaming
 REM;com.google.android.keep
 REM;com.google.android.adservices.api
@@ -41,15 +39,11 @@ REM;com.google.ar.core
 REM;com.google.ar.lens
 REM;com.google.mainline.adservices
 REM;com.google.mainline.telemetry
-;
 SEC;Meta Platforms, Inc.
-;
 REM;com.facebook.appmanager
 REM;com.facebook.services
 REM;com.facebook.system
-;
 SEC;Microsoft Corp.
-;
 REM;com.microsoft.appmanager
 REM;com.microsoft.deviceintegrationservice
 REM;com.microsoftsdk.crossdeviceservicebroker
