@@ -11,28 +11,23 @@ foreach ($line in $fileContent -Split "`n") {
 
     switch ($prompt[0]) {
 
-        "SEC" {
+        "DEVELOPER" {
 
-            Write-Output "$($prompt[1])"
+            Write-Output $prompt[1]
         }
 
-        "ENA" {
+        "DISABLE" {
 
-            .\adb.exe shell "pm default-state --user 0 $($prompt[1])"
+            Write-Output $prompt[1]
+
+            .\adb.exe shell "pm disable --user 0 $($prompt[2])"
         }
 
-        "DIS" {
+        "UNINSTALL" {
 
-            .\adb.exe shell "pm disable-user --user 0 $($prompt[1])"
-        }
+            Write-Output $prompt[1]
 
-        # "ADD" {
-        #
-        # }
-
-        "REM" {
-
-            .\adb.exe shell "pm uninstall --user 0 $($prompt[1])"
+            .\adb.exe shell "pm uninstall --user 0 $($prompt[2])"
         }
     }
 }

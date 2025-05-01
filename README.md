@@ -8,30 +8,10 @@ https://developer.android.com/tools/releases/platform-tools
 
 I have created a small format to have a basis for reusing code in other terminals.
 
-```
-<INSTRUCTION> <VALUE> <PARAMETER> <PARAMETER> <PARAMETER> …
-```
+### `COMMENT <TEXT>`
 
-```
-COM <VALUE>
-```
+### `DEVELOPER <TEXT>`
 
-```
-SEC <VALUE>
-```
+### `DISABLE <NAME> <PACKAGE>`
 
-```
-ADD <VALUE>
-```
-
-```
-REM <VALUE>
-```
-
-```
-ENA <VALUE> <KEEP CACHE DATA>
-```
-
-```
-DIS <VALUE> <KEEP CACHE DATA>
-```
+### `UNINSTALL <NAME> <PACKAGE>`
