@@ -2,7 +2,7 @@
 
 _I recommend cleaning the OS after an update._
 
-## About of Application Management Instructions (AMI) format
+## Application Management Instructions (AMI) format
 
 I have created a small format to have a basis for reusing code in other terminals.
 
