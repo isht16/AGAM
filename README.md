@@ -4,26 +4,10 @@ _I recommend cleaning the OS after an update._
 
 https://developer.android.com/tools/releases/platform-tools
 
-```
-.\vacuum.ps1 <AMI>
-```
+```ps1
 
 ```
-./vacuum.sh <AMI>
+
+```sh
+
 ```
-
-## Application Management Instructions (AMI)
-
-I have created a small format to have a basis for reusing code in other terminals.
-
-### `VERSION <NUMBER>`
-
-### `COMMENT <TEXT>`
-
-### `DEVELOPER <TEXT>`
-
-### `KEEP <BOOLEAN>`
-
-### `DISABLE <NAME> <PACKAGE> <DEPENDENCE> <DEPENDENCE> <DEPENDENCE> …`
-
-### `UNINSTALL <NAME> <PACKAGE> <DEPENDENCE> <DEPENDENCE> <DEPENDENCE> …`
